@@ -61,6 +61,24 @@
     height: auto;
     justify-self: center;
   }
+  .pago {
+    margin: 28px 0 0;
+    padding: 24px;
+    background: var(--panel);
+    border: 1px solid var(--oro);
+    border-radius: 14px;
+  }
+  .pago h2 {
+    font-family: "Bodoni Moda", Georgia, serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin: 0 0 12px;
+    color: var(--oro);
+  }
+  .pago dl { margin: 0; }
+  .pago dt { font-size: 0.85rem; color: var(--tenue); }
+  .pago dd { margin: 2px 0 14px; font-size: 1.05rem; color: var(--texto); }
+  .pago dd.numero { font-size: 1.25rem; letter-spacing: 0.06em; font-weight: 600; }
   .ficha { margin: 0; }
   .ficha div { margin-bottom: 16px; }
   .ficha dt {
@@ -189,6 +207,18 @@
         <dt>Notas de fondo</dt>
         <dd>Vainilla de Madagascar, almizcle, cedro y ámbar gris</dd>
       </div>
+    </dl>
+  </section>
+
+  <section class="pago">
+    <h2>Datos para el pago</h2>
+    <dl>
+      <dt>Banco</dt>
+      <dd>BBVA</dd>
+      <dt>Número de tarjeta</dt>
+      <dd class="numero">4152 3144 2315 6838</dd>
+      <dt>Titular</dt>
+      <dd>Reyna Merith Acosta Portillo</dd>
     </dl>
   </section>
 
